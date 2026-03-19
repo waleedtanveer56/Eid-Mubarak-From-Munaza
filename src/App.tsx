@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'motion/react';
 import { MessageCircle, Heart, Star, Moon, Sparkles, Send, ChevronDown } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { Analytics } from '@vercel/analytics/react';
 import { Scene } from './components/Scene';
 
 const Section = ({ children, className = "" }: { children: React.ReactNode, className?: string }) => (
@@ -233,6 +234,8 @@ export default function App() {
         <div className="absolute top-10 left-10 w-32 h-32 bg-eid-gold/5 rounded-full blur-3xl" />
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-eid-green/5 rounded-full blur-3xl" />
       </div>
+      
+      <Analytics />
     </div>
   );
 }
