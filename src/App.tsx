@@ -115,7 +115,7 @@ export default function App() {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-serif italic text-center text-eid-gold mb-8">
-            To my beloved family and my dear sisters, CZNs & Friends,
+            To my beloved family and my dear CZNs & Friends,
           </h2>
           
           <div className="space-y-6 text-lg md:text-xl text-white/90 leading-relaxed text-center font-light italic">
